@@ -1,0 +1,39 @@
+
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Industrial tour</title>
+      <!--font family-->
+      <link href='https://fonts.googleapis.com/css?family=Aclonica' rel='stylesheet'>
+      <!--custom style sheet-->
+      <link rel="stylesheet" href="css/style.css" type="text/css">
+      <script src="custom.js"></script>
+  </head>
+  <body>
+      <div class="head">
+        <h3 style="text-align: center;">Welcome to methodist college of engineering and technology</h3>
+        <h4 style="text-align: center;">Industrial Visit-2020</h4>
+        <p style="text-align: center;">Please fill the details to confirm your participation in the trip</p>
+      </div>
+      <div>
+        <img src="images/bg.jpg" alt="image" class="bg">
+        
+        <form action="index.php" method="post">
+          <input type="text" name="name" id="name" placeholder="Enter your name">
+          <input type="text" name="age" id="age" placeholder="Enter your Age">
+          <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+          <input type="email" name="email" id="email" placeholder="Enter your email">
+          <input type="phone" name="phone" id="phone" placeholder="Enter your phone">
+          <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other information here"></textarea>
+          <button class="btn">Submit</button> 
+      </form>
+         
+        <!--INSERT INTO `details` (`S.NO`, `name`, `age`, `gender`, `email`, `phone`, `other`, `date`) VALUES ('1', 'ranbir', '38', 'male', 'ranbir@kapoor.com', '987654321', 'ranbir my favorite', current_timestamp());-->
+      </div>
+
+      
+      
+  </body>
+  </html>
